@@ -1,0 +1,24 @@
+{
+  "site": {
+    "title": "Muster GmbH",
+    "description": "Professionelle Dienstleistungen fuer Ihren Erfolg"
+  },
+  "hero": {
+    "title": "Willkommen bei Muster GmbH",
+    "subtitle": "Wir bieten professionelle Loesungen fuer Ihr Unternehmen.",
+    "cta": "Jetzt Kontakt aufnehmen"
+  },
+  "leistungen": {
+    "title": "Unsere Leistungen",
+    "items": [
+      { "icon": "✦", "title": "Leistung 1", "text": "Beschreibung der ersten Leistung Ihres Unternehmens." },
+      { "icon": "◆", "title": "Leistung 2", "text": "Beschreibung der zweiten Leistung Ihres Unternehmens." },
+      { "icon": "●", "title": "Leistung 3", "text": "Beschreibung der dritten Leistung Ihres Unternehmens." }
+    ]
+  },
+  "kontakt": {
+    "title": "Kontakt",
+    "text": "Wir freuen uns auf Ihre Nachricht.",
+    "email": "info@muster.de"
+  }
+}
