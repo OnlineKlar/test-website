@@ -6,7 +6,8 @@ export default async function handler(req) {
   return new Response(JSON.stringify({
     token_length: token.length,
     token_prefix: token.substring(0, 10),
+    token_suffix: token.substring(token.length - 4),
     owner,
     repo
-  }), { status: 200, headers: { "Content-Type": "application/json" } });
+  }, null, 2), { status: 200, headers: { "Content-Type": "application/json" } });
 }
