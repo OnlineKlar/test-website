@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{site.title}}</title>
-  <meta name="description" content="{{site.description}}">
+  <title>Website</title>
+  <meta name="description" content="">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -12,33 +12,35 @@
 <body>
   <header class="header" id="header">
     <nav class="nav container">
-      <div class="nav__logo">{{site.title}}</div>
+      <div class="nav__logo" id="nav-logo"></div>
       <ul class="nav__links">
         <li><a href="#leistungen">Leistungen</a></li>
-        <li><a href="#ueber-uns">Über uns</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
     <section class="hero">
       <div class="container">
         <div class="hero__content reveal">
-          <h1 class="hero__title">{{hero.title}}</h1>
-          <p class="hero__subtitle">{{hero.subtitle}}</p>
-          <a href="#kontakt" class="btn btn--primary">{{hero.cta}}</a>
+          <h1 class="hero__title" id="hero-title"></h1>
+          <p class="hero__subtitle" id="hero-subtitle"></p>
+          <a href="#kontakt" class="btn btn--primary" id="hero-cta"></a>
         </div>
       </div>
     </section>
+
     <section class="leistungen" id="leistungen">
       <div class="container">
-        <h2 class="section-title reveal">{{leistungen.title}}</h2>
+        <h2 class="section-title reveal" id="leistungen-title"></h2>
         <div class="grid grid--3" id="leistungen-grid"></div>
       </div>
     </section>
+
     <section class="kontakt" id="kontakt">
       <div class="container">
-        <h2 class="section-title reveal">{{kontakt.title}}</h2>
+        <h2 class="section-title reveal" id="kontakt-title"></h2>
         <div class="kontakt__grid">
           <div class="kontakt__info reveal">
             <p id="kontakt-text"></p>
@@ -48,11 +50,13 @@
       </div>
     </section>
   </main>
+
   <footer class="footer">
     <div class="container">
       <p>© <span id="year"></span> <span id="footer-title"></span></p>
     </div>
   </footer>
+
   <script src="js/main.js"></script>
 </body>
 </html>
