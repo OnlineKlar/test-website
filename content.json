@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Muster GmbH",
+    "title": "Muster ",
     "description": "Professionelle Dienstleistungen fuer Ihren Erfolg"
   },
   "hero": {
@@ -11,9 +11,21 @@
   "leistungen": {
     "title": "Unsere Leistungen",
     "items": [
-      { "icon": "✦", "title": "Leistung 1", "text": "Beschreibung der ersten Leistung Ihres Unternehmens." },
-      { "icon": "◆", "title": "Leistung 2", "text": "Beschreibung der zweiten Leistung Ihres Unternehmens." },
-      { "icon": "●", "title": "Leistung 3", "text": "Beschreibung der dritten Leistung Ihres Unternehmens." }
+      {
+        "icon": "✦",
+        "title": "Leistung 1",
+        "text": "Beschreibung der ersten Leistung Ihres Unternehmens."
+      },
+      {
+        "icon": "◆",
+        "title": "Leistung 2",
+        "text": "Beschreibung der zweiten Leistung Ihres Unternehmens."
+      },
+      {
+        "icon": "●",
+        "title": "Leistung 3",
+        "text": "Beschreibung der dritten Leistung Ihres Unternehmens."
+      }
     ]
   },
   "kontakt": {
